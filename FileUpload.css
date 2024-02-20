@@ -1,0 +1,47 @@
+/* src/components/FileUpload.css */
+
+.file-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .file-upload-container h2 {
+    color: green;
+    margin-bottom: 20px;
+  }
+  
+  .file-upload-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .file-upload-container .upload-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .file-upload-container .execute-button {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  
+  .file-upload-container .back-button {
+    background-color: #008CBA; /* Blue */
+    color: white;
+  }
+  
+  .file-upload-container button:hover {
+    opacity: 0.8;
+  }
+  
+  .file-upload-container input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
