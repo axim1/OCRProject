@@ -6,26 +6,29 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #fff; /* Change to white as per the image */
   }
   
   .login-container form {
-    padding: 20px;
-    border: 1px solid #ccc;
+    padding: 40px; /* Adjust padding to match the image */
+    border: none; /* Remove the border */
     border-radius: 5px;
     background: #fff;
+    width: 300px; /* Set a fixed width to match the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
   }
   
   .login-container h2 {
     color: green;
+    margin-bottom: 40px; /* Add more space below the heading */
   }
   
   .login-container input {
-    margin-bottom: 10px;
+    margin-bottom: 20px; /* Increase space between input fields */
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 100%;
+    width: calc(100% - 20px); /* Adjust width to account for padding */
   }
   
   .login-container button {
@@ -35,9 +38,12 @@
     background-color: green;
     color: white;
     cursor: pointer;
+    width: 100%; /* Make the button full width */
+    font-size: 16px; /* Increase font size */
+    font-weight: bold; /* Make text bold */
   }
   
   .login-container button:hover {
-    background-color: darkgreen;
+    background-color: #005f00; /* Darker green on hover */
   }
   
